@@ -1,0 +1,25 @@
+account-service: ''
+application: ''
+client: ''
+customer-service: ''
+default-zone: ${EUREKA_URI:http://localhost:8761/eureka}
+eureka: ''
+host: ''
+ignoredServices: '''*'''
+instance: ''
+name: API-GATEWAY
+path:
+- /accounts/**
+- /customers/**
+port: 8080
+prefer-ip-address: true
+prefix: /api
+routes: ''
+server: ''
+service-url: ''
+serviceId:
+- ACCOUNT-SERVICE
+- CUSTOMER-SERVICE
+socket-timeout-millis: '30000 '
+spring: ''
+zuul: ''
